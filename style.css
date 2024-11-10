@@ -1,0 +1,164 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+/* Section Headings */
+section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* About Section */
+#about {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Skills Section */
+#skills {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#skills li {
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 2rem;
+}
+
+.project {
+  margin-bottom: 1rem;
+}
+
+/* Courses Section */
+#courses {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+#courses ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#courses li {
+  padding: 0.5rem;
+}
+
+/* Research Section */
+#research {
+  padding: 2rem;
+}
+
+.research-item {
+  margin-bottom: 1rem;
+}
+
+/* Achievements Section */
+#achievements {
+  padding: 2rem;
+}
+
+#achievements ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#achievements li {
+  padding: 0.5rem;
+}
+
+/* Volunteering Section */
+#volunteering {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+.volunteer-item {
+  margin-bottom: 1rem;
+}
+
+/* Extracurriculars Section */
+#extracurriculars {
+  padding: 2rem;
+}
+
+.activity {
+  margin-bottom: 1rem;
+}
+
+/* Contact Section */
+#contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
